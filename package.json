@@ -1,0 +1,28 @@
+{
+  "name": "tcl-active",
+  "version": "0.1.0",
+  "description": "something about tcl-active",
+  "keywords": [
+    "tcl-active"
+  ],
+  "author": "lxlneo <lxlneo.g@gmail.com>",
+  "devDependencies": {
+    "connect-livereload": "",
+    "grunt": "",
+    "grunt-contrib-clean": "",
+    "grunt-contrib-concat": "",
+    "grunt-contrib-connect": "",
+    "grunt-contrib-copy": "",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-watch": "",
+    "grunt-filerev": "",
+    "grunt-usemin": "",
+    "json-proxy": "",
+    "klyg-file2head": "0.0.8"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
