@@ -29,16 +29,12 @@ module.exports = function (grunt) {
                             require('json-proxy').initialize({
                                 proxy: {
                                     forward: {
-                                        '/interaction': 'http://run.tvi.hunantv.com/',
-                                        '/song': 'http://run.tvi.hunantv.com/',
-                                        '/vote': 'http://run.tvi.hunantv.com/',
-                                        '/quiz': 'http://run.tvi.hunantv.com/',
-                                        '/user': 'http://run.tvi.hunantv.com/',
-                                        '/banner': 'http://run.tvi.hunantv.com/'
+                                        '/interaction': 'http://find11now.com/'
+                                        
                                     },
                                     headers: {
-                                        'Host': 'run.tvi.hunantv.com',
-                                        'Origin': 'http://run.tvi.hunantv.com',
+                                        'Host': 'http://find11now.com/',
+                                        'Origin': 'http://find11now.com/',
                                         'X-Requested-With': 'XMLHttpRequest'
                                     }
                                 }
