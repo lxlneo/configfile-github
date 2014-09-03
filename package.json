@@ -1,9 +1,9 @@
 {
-  "name": "tcl-active",
+  "name": "project-name",
   "version": "0.1.0",
-  "description": "something about tcl-active",
+  "description": "something about project",
   "keywords": [
-    "tcl-active"
+    "project keywords"
   ],
   "author": "lxlneo <lxlneo.g@gmail.com>",
   "devDependencies": {
