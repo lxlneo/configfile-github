@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  color: #333;
+  background: #fff;
+  font-family: "微软雅黑";
+  font-size: 10px;
+}
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, button, textarea, p, blockquote, th, td, iframe {
+  margin: 0;
+  padding: 0;
+}
+
+/* 去掉各Table  cell 的边距并让其边重合 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 去除默认边框 */
+fieldset, img {
+  border: 0;
+}
+
+/* 去掉列表前的标识, li 会继承 */
+ol, ul {
+  list-style: none;
+}
+
+/* 去掉获取焦点的时候高亮 */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  color: #444 !important;
+}
+
+/* 去掉iphone访问的一些默认样式 */
+input[type="text"], textarea {
+  -webkit-appearance: none;
+}
+
+/* 禁止textarea输入框用户缩放 */
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+h1, h2, h3, h4, h5, h6, input, textarea, select, button {
+  font-size: 100%;
+}
+
+/* 去掉图片的默认间隙 */
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: #111;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* 清理浮动 */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/* 以图换字 */
+.hide-text {
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+/** 居中 **/
+.center{
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  position:absolute;
+}
